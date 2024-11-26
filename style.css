@@ -38,7 +38,7 @@ div{
 
 
 /* Now shapes Styling */
-*{
+/* *{
     padding: 0;
     margin: 0;
 }
@@ -62,24 +62,74 @@ h1{
     width: 200px;
     height: 200px;
     border-style:double;
-   border-width: 3px; 
+   border-width: 3px;  */
       /* border is internal  */
       /* border radius means covers lana 4 sides
        */
       /* border-radius: 10px; */
       /* now for circle first create a rectangle */
+
+/*       
     border-radius: 50%;
-    }
+    } */
 
 
-#box2{
+/* #box2{
     background-color: rgb(49, 190, 190);
     width: 30%;
     height: 50%;
     /* now for the oval shape */
-    border-style:double;
+    /* border-style:double;
     border-width: 3px; 
     border-radius: 50%;
 
     
+} */ 
+
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Shape styles */
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #f39c12;
+    border-radius: 50%;
+    border: 2px solid #e67e22;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border: 2px solid #2980b9;
+}
+
+.rectangle {
+    width: 150px;
+    height: 100px;
+    background-color: #2ecc71;
+    border: 2px solid #27ae60;
+}
+
+/* Hover effects */
+.circle:hover,
+.square:hover,
+.rectangle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
