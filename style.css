@@ -1,0 +1,85 @@
+/* *{
+    padding: 0%;
+    margin: 0%;
+} 
+body,html{
+    width: 100%;
+ height: 100%; 
+}
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+div{
+    
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+    
+}
+ #box-1{
+    background-color: aqua;
+    font-size: larger;
+    
+
+} 
+#box-2{
+    background-color: rgb(23, 34, 34);
+    color: aliceblue;
+    font-size: larger;
+} */
+
+
+/* Now shapes Styling */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 50%;
+}
+body{
+    background-color:rgb(240, 240, 240);
+}
+h1{
+    border-style:groove;
+    border-radius: 10px;
+    border-width: 3px; 
+}
+
+
+#box1{
+    background-color: rgb(96, 119, 119);
+    width: 200px;
+    height: 200px;
+    border-style:double;
+   border-width: 3px; 
+      /* border is internal  */
+      /* border radius means covers lana 4 sides
+       */
+      /* border-radius: 10px; */
+      /* now for circle first create a rectangle */
+    border-radius: 50%;
+    }
+
+
+#box2{
+    background-color: rgb(49, 190, 190);
+    width: 30%;
+    height: 50%;
+    /* now for the oval shape */
+    border-style:double;
+    border-width: 3px; 
+    border-radius: 50%;
+
+    
+}
